@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>please enter the data</h1>
+        <form action ='/predict' method="POST">
+            industrial_risk: <input type="text" name="industrial_risk"><br>
+            management_risk:<input type="text" name="management_risk"><br>
+            financial_flexibility:<input type="text" name="financial_flexibility"><br>
+            credibility:<input type="text" name="credibility"><br>
+            competitiveness:<input type="text" name="competitiveness"><br>
+            operating_risk:<input type="text" name="operating_risk"><br>
+            bankkrupt Or not :{{result}}<br>
+            <input type='submit' value='predict'>
+
+        </form>
+    </body>
+</html>
